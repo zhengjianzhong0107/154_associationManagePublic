@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+.text-blue{
+  color: #409EFF;
+}
+
+.fater-header {
+    display: flex;
+    position: fixed;
+    left: 0px;
+    right: 0;
+    top: 0;
+    height: 70px !important;
+    line-height: 70px;
+    background-color: #52c750;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+
+  }
+  .fater-header-logo {
+    /*position: absolute;*/
+    left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .fater-header-user{
+    position: absolute;
+    right: 35px;
+    color: #fff;
+  }
+
+  .fater-left{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    width: 200px !important;
+    border-right:  1px solid #eee;
+    background-color: #fff;
+  }
+  .fater-left .el-menu{
+    
+    border-right:  none;
+  }
+  .fater-left .fa{
+    margin-right: 10px;
+  }
+
+  .fater-body{
+      position: absolute;
+      left: 200px;
+      right: 0;
+      top: 70px;
+      bottom: 0;
+      background-color: #F2F2F2;
+      padding: 15px;
+  }
+
+  .fater-body-breadcrumb{
+      margin: -15px;
+      margin-bottom: 15px;
+      padding: 10px 15px;
+      height: 40px;
+      line-height: 40px;
+      cursor: pointer;
+      background-color: #fff;
+  }
+
+  .fater-body-show .el-card{
+    /*margin-bottom: 15px;*/
+  }
+  .fater-body-show .el-card__header{
+    padding: 10px 15px;
+  }
+  .fater-body-show .el-card__body{
+    padding: 10px 15px;
+  }
+
+  .fater-index-panle{
+    position: relative;
+    height: 120px;
+  }
+  .fater-index-panle-num{
+    position:  absolute;
+    top: 15px;
+    font-size: 52px;
+    font-weight: bold;
+    color: #409EFF;
+  }
+  .fater-index-panle-desc{
+    position:  absolute;
+    bottom: 10px;
+    font-size: 16px;
+  }
+  .fater-index-panle-unit{
+    position:  absolute;
+    bottom: 10px;
+    right: 0;
+    font-size: 16px;
+  }
+
+  .fater-welcome-panel{
+    height: 350px;
+      width: 400px;
+      margin-left: 400px;
+      margin-bottom: 15px;
+    border-radius: 5px;
+    background-image: url("./12.png");
+    background-size: cover;
+  }
+
+  .el-button--primary {
+    color: #FFF;
+    background-color: #52c750;
+    border-color: #009999;
+}
+
+.el-button--primary:link{
+  background-color: #52c750;
+    border-color: #009999;
+}
+.el-button--primary:visited{
+  background-color: #52c750;
+    border-color: #009999;
+}
+.el-button--primary:hover{
+  background-color: #52c750;
+    border-color: #009999;
+}
+.el-button--primary:active{
+  background-color: #52c750;
+    border-color: #009999;
+}
